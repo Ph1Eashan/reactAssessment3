@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.feedbackform {
+  display: block;
+  margin: auto;
+  height: 500px;
+  line-height: 100px;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 900;
+  margin-top: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+form {
+  line-height: 80px;
+}
+
+label {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+input {
+  height: 30px;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+}
+
+button {
+  margin-top: 20px;
+  height: 50px;
+  width: 30%;
+  font-size: xx-large;
+  font-weight: 800;
+  border: 2px solid black;
+  background-color: lightskyblue;
+  border-radius: 30px 30px;
+}
+
+.goback {
+  margin-top: 100px;
+  height: 50px;
+  width: 30%;
+  font-size: xx-large;
+  font-weight: 800;
+  border: 2px solid black;
+  background-color: lightskyblue;
+  border-radius: 30px 30px;
+}
+
+button:hover{
+  background-color:turquoise;
+}
+
+
+.infodisplay {
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+}
+
+.displayInfo {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.detailbox {
+  height: 70px;
+  width: 35%;
+  margin: 30px;
+  margin-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 20px 20px;
+  background-color: lightcoral;
+  border: 2px solid black;
+}
